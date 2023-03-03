@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background-color: #ffffff;
+}
+
+/* menu */
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 8px 24px;
+  background-color: #ffffff ; 
+}
+
+.cabecalho-imagem {
+  height: 70px;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 32px;
+}
+
+.cabecalho-menu-item {
+  font-family: 'Montserra', sans-serif;
+  color: #830a0a;
+  font-weight: 400;
+  font-weight: bold;
+  font-size: 18px
+}
+
